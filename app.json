@@ -1,6 +1,31 @@
 {
-  "name": "Zak Psycho MD",
-  "description": "WhatsApp bot with advanced features",
-  "repository": "https://github.com/your-github/zak-psycho-md",
-  "keywords": ["whatsapp", "bot", "baileys"]
+  "name": "Zak Psycho MD Bot",
+  "description": "A WhatsApp bot built using Baileys.",
+  "repository": "https://github.com/zakie55/Zak-psycho-md",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys"
+  ],
+  "env": {
+    "BOT_NAME": {
+      "description": "Name of the bot",
+      "value": "Zak Psycho MD"
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner's phone number with country code",
+      "value": "18768375254"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
 }
