@@ -1,0 +1,17 @@
+{
+  "name": "zak-psycho-md",
+  "version": "1.0.0",
+  "description": "Zak Psycho MD - A WhatsApp bot using Baileys",
+  "main": "index.js",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "chalk": "^4.1.2",
+    "fs": "0.0.1-security",
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Zak",
+  "license": "MIT"
+}
