@@ -1,7 +1,5 @@
+// Set configurations for the bot here
 module.exports = {
-  botName: "Zak Psycho MD",
-  owner: "Zak",
-  prefix: ".",
-  sessionName: "session",
-  version: "1.0.0"
+  botName: 'Zak Psycho MD',
+  ownerNumber: '+1234567890', // Replace with your number
 };
