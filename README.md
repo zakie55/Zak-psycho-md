@@ -13,4 +13,4 @@ A WhatsApp bot built using Baileys for WhatsApp Web API.
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/ZakPsychoMD-Bot.git
+   git clone https://github.com/zakie55/Zak-psycho-md
