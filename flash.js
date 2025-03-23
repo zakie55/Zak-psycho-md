@@ -1,2 +1,2 @@
-const chalk = require('chalk');
-console.log(chalk.blue('Zak Psycho MD Bot Flash Activated!'));
+// Flash configuration for bot
+console.log('Zak Psycho MD Bot is live!');
